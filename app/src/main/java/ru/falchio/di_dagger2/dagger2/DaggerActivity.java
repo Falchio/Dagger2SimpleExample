@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.WindowDecorActionBar;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import javax.inject.Inject;
 
@@ -24,6 +25,6 @@ public class DaggerActivity extends AppCompatActivity {
         White white = new White();
         Red red = new Red();
 
-        
+        Log.d("TAG", "onCreate: " + green.show());
     }
 }

@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".di.DependencyInjection" />
+        <activity android:name=".di.DependencyInjectionActivity" />
         <activity android:name=".nodiactivity.NoDiActivity" />
     </application>
 
