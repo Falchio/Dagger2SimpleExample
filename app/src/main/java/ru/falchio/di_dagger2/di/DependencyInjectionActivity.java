@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import ru.falchio.di_dagger2.R;
 
-public class DependencyInjection extends AppCompatActivity {
+public class DependencyInjectionActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
